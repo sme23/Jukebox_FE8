@@ -4,6 +4,7 @@
 
     ORG FreeSpace
 	
+	#include "_FE8EssentialFixes.event"
 	#include "SoundRoomBoot.event"
     
     MESSAGE Used free space ends at currentOffset

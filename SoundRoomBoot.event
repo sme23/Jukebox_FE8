@@ -1,5 +1,6 @@
 #include "Extensions/Hack Installation.txt"
 
+/*
 PUSH
 ORG 0x000AD8   // this is somewhere in the startup routine
 BL(0x01C090) // Call the debug startup
@@ -13,4 +14,13 @@ ORG 0xAF79E
 SHORT 0xBCE0
 ORG 0x01C0A6
 SHORT 0xE017
+POP
+
+NEW PLAN: EVERY MENU OPTION IS SOUND ROOM
+*/
+
+
+PUSH
+ORG 0x0A9174
+
 POP

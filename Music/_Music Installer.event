@@ -1,0 +1,39 @@
+#include "CustomSampleMusic/music installer.event"
+
+PUSH
+ORG 0x1bc14
+POIN SoundRoom
+ORG 0x1bcc4
+POIN SoundRoom
+ORG 0xaeca8
+POIN SoundRoom
+ORG 0xaecd0
+POIN SoundRoom
+ORG 0xaed2c
+POIN SoundRoom
+ORG 0xaeebc
+POIN SoundRoom
+ORG 0xaf438
+POIN SoundRoom
+ORG 0xaf830
+POIN SoundRoom
+ORG 0xafe30
+POIN SoundRoom
+ORG 0xb0080
+POIN SoundRoom
+ORG 0xb042c
+POIN SoundRoom
+POP
+
+#define SoundRoomEntry(songID,songLength,songName) "WORD songID songLength 0 songName"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+
+SoundRoom:
+SoundRoomEntry()
+
+
+SoundRoomTerminator
+
+#include "CustomSampleMusic/CustomSampleTables.event"
+

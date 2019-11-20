@@ -6,6 +6,8 @@
 	
 	#include "_FE8EssentialFixes.event"
 	#include "SoundRoomBoot.event"
+
+	#include "Music/_Music Installer.event"
     
     MESSAGE Used free space ends at currentOffset
 #else

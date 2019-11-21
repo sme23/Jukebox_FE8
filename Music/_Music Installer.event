@@ -30,7 +30,7 @@ POP
 
 
 SoundRoom:
-SoundRoomEntry()
+//SoundRoomEntry()
 
 
 SoundRoomTerminator

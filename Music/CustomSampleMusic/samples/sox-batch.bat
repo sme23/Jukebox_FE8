@@ -11,9 +11,12 @@
 @rem command.
 
 @cd %~dp0
-@cd "%~dp0sox-14.4.2"
 @mkdir converted
+@cd convert
 @dir *.wav /b > wav.txt
-for /f "tokens=*" %%m in (wav.txt) do sox "%%m" -r 22050 -c 1 "converted/%%m.sb"
+@cd "%~dp0sox-14.4.2"
+@for /f "tokens=*" %%m in (%~dp0/convert/wav.txt) do sox "%~dp0/convert/%%m" -r 22050 -c 1 "%~dp0/converted/%%m.sb"
+@cd %~dp0
+@cd convert
 @del "wav.txt"
 pause

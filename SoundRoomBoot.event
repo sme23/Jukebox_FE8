@@ -20,7 +20,6 @@ NEW PLAN: EVERY MENU OPTION IS SOUND ROOM
 */
 
 
-PUSH
-ORG 0x0A9174
+#include "ProcDefinitions.event"
+#include "savemenu.event"
 
-POP

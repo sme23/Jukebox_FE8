@@ -5,7 +5,7 @@
     ORG FreeSpace
 	
 	#include "_FE8EssentialFixes.event"
-	#include "SoundRoomBoot.event"
+	//#include "SoundRoomBoot.event"
 
 	#include "Music/_Music Installer.event"
     

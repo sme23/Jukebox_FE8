@@ -3,304 +3,229 @@
 
 ALIGN 4
 DaytonaSample2:
-SampleHeader(True,0x01588800,5293,11602)
-#incbin "samples/daytona/daytona_everything - 002 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 002 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample3:
-SampleHeader(True,0x01588800,16861,22623)
-#incbin "samples/daytona/daytona_everything - 003 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 003 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample4:
-SampleHeader(True,0x01588800,11493,12300)
-#incbin "samples/daytona/daytona_everything - 004 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 004 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample5:
-SampleHeader(True,0x01588800,38728,44553)
-#incbin "samples/daytona/daytona_everything - 005 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 005 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample6:
-SampleHeader(True,0x01588800,19350,28606)
-#incbin "samples/daytona/daytona_everything - 006 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 006 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample7:
-SampleHeader(True,0x01588800,22965,25860)
-#incbin "samples/daytona/daytona_everything - 007 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 007 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample8:
-SampleHeader(True,0x01588800,10331,17169)
-#incbin "samples/daytona/daytona_everything - 008 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 008 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample9:
-SampleHeader(True,0x01588800,13157,25257)
-#incbin "samples/daytona/daytona_everything - 009 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 009 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample10:
-SampleHeader(True,0x01588800,9336,21285)
-#incbin "samples/daytona/daytona_everything - 010 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 010 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample11:
-SampleHeader(True,0x01588800,16861,22623)
-#incbin "samples/daytona/daytona_everything - 011 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 011 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample12:
-SampleHeader(True,0x01588800,11106,20283)
-#incbin "samples/daytona/daytona_everything - 012 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 012 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample13:
-SampleHeader(True,0x01588800,20226,28336)
-#incbin "samples/daytona/daytona_everything - 013 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 013 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample14:
-SampleHeader(True,0x01588800,16456,22654)
-#incbin "samples/daytona/daytona_everything - 014 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 014 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample15:
-SampleHeader(True,0x01588800,22287,30772)
-#incbin "samples/daytona/daytona_everything - 015 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 015 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample16:
-SampleHeader(True,0x01588800,24568,25768)
-#incbin "samples/daytona/daytona_everything - 016 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 016 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample17:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 017 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 017 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample18:
-SampleHeader(True,0x01588800,7857,21926)
-#incbin "samples/daytona/daytona_everything - 018 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 018 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample19:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 019 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 019 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample20:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 020 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 020 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample21:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 021 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 021 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample22:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 022 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 022 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample23:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 023 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 023 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample24:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 024 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 024 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample25:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 025 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 025 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample26:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 026 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 026 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample27:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 027 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 027 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample28:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 028 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 028 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample29:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 029 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 029 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample30:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 030 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 030 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample31:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 031 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 031 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample32:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 032 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 032 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample33:
-SampleHeader(True,0x01588800,7603,13441)
-#incbin "samples/daytona/daytona_everything - 033 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 033 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample34:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 034 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 034 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample35:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 035 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 035 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample36:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 036 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 036 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample37:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 037 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 037 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample38:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 038 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 038 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample39:
-SampleHeader(True,0x01588800,16708,23268)
-#incbin "samples/daytona/daytona_everything - 039 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 039 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample40:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 040 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 040 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample41:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 041 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 041 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample42:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 042 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 042 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample43:
-SampleHeader(True,0x01588800,45859,51140)
-#incbin "samples/daytona/daytona_everything - 043 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 043 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample44:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 044 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 044 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample45:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 045 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 045 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample46:
-SampleHeader(True,0x01588800,16062,21802)
-#incbin "samples/daytona/daytona_everything - 046 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 046 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample47:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 047 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 047 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample48:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 048 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 048 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample49:
-SampleHeader(True,0x01588800,13770,16452)
-#incbin "samples/daytona/daytona_everything - 049 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 049 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample50:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 050 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 050 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample51:
-SampleHeader(True,0x01588800,13384,14847)
-#incbin "samples/daytona/daytona_everything - 051 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 051 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample52:
-SampleHeader(True,0x01588800,11180,16208)
-#incbin "samples/daytona/daytona_everything - 052 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 052 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample53:
-SampleHeader(True,0x01588800,12233,17670)
-#incbin "samples/daytona/daytona_everything - 053 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 053 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample54:
-SampleHeader(True,0x01588800,10470,18225)
-#incbin "samples/daytona/daytona_everything - 054 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 054 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample55:
-SampleHeader(True,0x01588800,13857,22137)
-#incbin "samples/daytona/daytona_everything - 055 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 055 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample56:
-SampleHeader(True,0x01588800,13773,18338)
-#incbin "samples/daytona/daytona_everything - 056 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 056 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample57:
-SampleHeader(True,0x01588800,14258,21204)
-#incbin "samples/daytona/daytona_everything - 057 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 057 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample58:
-SampleHeader(True,0x01588800,22127,31965)
-#incbin "samples/daytona/daytona_everything - 058 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 058 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample59:
-SampleHeader(True,0x01588800,23195,28548)
-#incbin "samples/daytona/daytona_everything - 059 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 059 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample60:
-SampleHeader(True,0x01588800,18042,21259)
-#incbin "samples/daytona/daytona_everything - 060 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 060 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample61:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 061 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 061 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample62:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 062 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 062 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample63:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 063 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 063 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample64:
-SampleHeader(True,0x01588800,27178,34225)
-#incbin "samples/daytona/daytona_everything - 064 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 064 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample65:
-SampleHeader(True,0x01588800,34483,41525)
-#incbin "samples/daytona/daytona_everything - 065 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 065 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample66:
-SampleHeader(True,0x01588800,23196,30893)
-#incbin "samples/daytona/daytona_everything - 066 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 066 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample67:
-SampleHeader(True,0x01588800,22531,28896)
-#incbin "samples/daytona/daytona_everything - 067 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 067 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample68:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 068 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 068 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample69:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 069 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 069 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample70:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 070 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 070 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample71:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 071 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 071 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample72:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 072 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 072 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample73:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 073 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 073 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample74:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 074 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 074 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample75:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 075 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 075 - daytona_mits.dmp"
 ALIGN 4
 DaytonaSample76:
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 076 - daytona_mits.wav.sb"
+#incbin "samples/convert/daytona_everything - 076 - daytona_mits.dmp"
 
 //end of voice samples
 
@@ -308,60 +233,46 @@ SampleHeader(False,0x01588800,0,0)
 
 ALIGN 4
 DaytonaSample77: //crash cymbal
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 077 - daytona_cras.wav.sb"
+#incbin "samples/convert/daytona_everything - 077 - daytona_cras.dmp"
 ALIGN 4
 DaytonaSample78: //tom 1
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 078 - daytona_tom1.wav.sb"
+#incbin "samples/convert/daytona_everything - 078 - daytona_tom1.dmp"
 ALIGN 4
 DaytonaSample79: //tom 2
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 079 - daytona_tom2.wav.sb"
+#incbin "samples/convert/daytona_everything - 079 - daytona_tom2.dmp"
 ALIGN 4
 DaytonaSample80: //low tom
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 080 - daytona_toml.wav.sb"
+#incbin "samples/convert/daytona_everything - 080 - daytona_toml.dmp"
 ALIGN 4
 DaytonaSample81: //hi tom
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 081 - daytona_tomh.wav.sb"
+#incbin "samples/convert/daytona_everything - 081 - daytona_tomh.dmp"
 ALIGN 4
 DaytonaSample82: //bass kick
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 082 - daytona_kick.wav.sb"
+#incbin "samples/convert/daytona_everything - 082 - daytona_kick.dmp"
 ALIGN 4
 DaytonaSample83: //closed hi hat
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 083 - daytona_ch.wav.sb"
+#incbin "samples/convert/daytona_everything - 083 - daytona_ch.dmp"
 ALIGN 4
 DaytonaSample84: //open hi hat
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 084 - daytona_ohsh.wav.sb"
+#incbin "samples/convert/daytona_everything - 084 - daytona_ohsh.dmp"
 ALIGN 4
 DaytonaSample85: //ride cymbal
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 085 - daytona_ohlo.wav.sb"
+#incbin "samples/convert/daytona_everything - 085 - daytona_ohlo.dmp"
 ALIGN 4
 DaytonaSample86: //pedal hi hat
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 086 - daytona_ohre.wav.sb"
+#incbin "samples/convert/daytona_everything - 086 - daytona_ohre.dmp"
 ALIGN 4
 DaytonaSample87: //snare
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 087 - daytona_sn.wav.sb"
+#incbin "samples/convert/daytona_everything - 087 - daytona_sn.dmp"
 ALIGN 4
 DaytonaSample88: //snare
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 088 - daytona_snli.wav.sb"
+#incbin "samples/convert/daytona_everything - 088 - daytona_snli.dmp"
 ALIGN 4
 DaytonaSample89: //tambourine shake
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 089 - daytona_cym.wav.sb"
+#incbin "samples/convert/daytona_everything - 089 - daytona_cym.dmp"
 ALIGN 4
 DaytonaSample90: //synth tom
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 090 - daytona_toms.wav.sb"
+#incbin "samples/convert/daytona_everything - 090 - daytona_toms.dmp"
 
 //end of drum samples
 
@@ -369,129 +280,97 @@ SampleHeader(False,0x01588800,0,0)
 
 ALIGN 4
 DaytonaSample91: //synth bass
-SampleHeader(True,0x01588800,18693,25357)
-#incbin "samples/daytona/daytona_everything - 091 - daytona_synt.wav.sb"
+#incbin "samples/convert/daytona_everything - 091 - daytona_synt.dmp"
 ALIGN 4
 DaytonaSample92: //orchestra hit
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 092 - daytona_hit_.wav.sb"
+#incbin "samples/convert/daytona_everything - 092 - daytona_hit_.dmp"
 ALIGN 4
 DaytonaSample93: //slide
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 093 - daytona_slid.wav.sb"
+#incbin "samples/convert/daytona_everything - 093 - daytona_slid.dmp"
 ALIGN 4
 DaytonaSample94: //strings
-SampleHeader(True,0x01588800,11205,21227)
-#incbin "samples/daytona/daytona_everything - 094 - daytona_stri.wav.sb"
+#incbin "samples/convert/daytona_everything - 094 - daytona_stri.dmp"
 ALIGN 4
 DaytonaSample95: //synth drum
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 095 - daytona_sn_l.wav.sb"
+#incbin "samples/convert/daytona_everything - 095 - daytona_sn_l.dmp"
 ALIGN 4
 DaytonaSample96: //brass
-SampleHeader(True,0x01588800,25908,41969)
-#incbin "samples/daytona/daytona_everything - 096 - daytona_synt.wav.sb"
+#incbin "samples/convert/daytona_everything - 096 - daytona_synt.dmp"
 ALIGN 4
 DaytonaSample97: //muted trumpet?
-SampleHeader(True,0x01588800,13591,25186)
-#incbin "samples/daytona/daytona_everything - 097 - daytona_crys.wav.sb"
+#incbin "samples/convert/daytona_everything - 097 - daytona_crys.dmp"
 ALIGN 4
 DaytonaSample98: //reverse cymbal
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 098 - daytona_cymn.wav.sb"
+#incbin "samples/convert/daytona_everything - 098 - daytona_cymn.dmp"
 ALIGN 4
 DaytonaSample99: //ride cymbal
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 099 - daytona_ride.wav.sb"
+#incbin "samples/convert/daytona_everything - 099 - daytona_ride.dmp"
 ALIGN 4
 DaytonaSample100: //overdriven guitar
-SampleHeader(True,0x01588800,42123,46177)
-#incbin "samples/daytona/daytona_everything - 100 - daytona_guit.wav.sb"
+#incbin "samples/convert/daytona_everything - 100 - daytona_guit.dmp"
 ALIGN 4
 DaytonaSample101: //electric guitar (muted)
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 101 - daytona_guit.wav.sb"
+#incbin "samples/convert/daytona_everything - 101 - daytona_guit.dmp"
 ALIGN 4
 DaytonaSample102: //acoustic guitar
-SampleHeader(True,0x01588800,42513,44350)
-#incbin "samples/daytona/daytona_everything - 102 - daytona_nygu.wav.sb"
+#incbin "samples/convert/daytona_everything - 102 - daytona_nygu.dmp"
 ALIGN 4
 DaytonaSample103: //acoustic guitar
-SampleHeader(True,0x01588800,52611,56558)
-#incbin "samples/daytona/daytona_everything - 103 - daytona_nygu.wav.sb"
+#incbin "samples/convert/daytona_everything - 103 - daytona_nygu.dmp"
 ALIGN 4
 DaytonaSample104: //synth1
-SampleHeader(True,0x01588800,25065,53249)
-#incbin "samples/daytona/daytona_everything - 104 - daytona_synt.wav.sb"
+#incbin "samples/convert/daytona_everything - 104 - daytona_synt.dmp"
 ALIGN 4
 DaytonaSample105: //hand clap
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 105 - daytona_clap.wav.sb"
+#incbin "samples/convert/daytona_everything - 105 - daytona_clap.dmp"
 ALIGN 4
 DaytonaSample106: //organ
-SampleHeader(True,0x01588800,11734,18316)
-#incbin "samples/daytona/daytona_everything - 106 - daytona_org_.wav.sb"
+#incbin "samples/convert/daytona_everything - 106 - daytona_org_.dmp"
 ALIGN 4
 DaytonaSample107: //slap bass
-SampleHeader(True,0x01588800,18822,22837)
-#incbin "samples/daytona/daytona_everything - 107 - daytona_fing.wav.sb"
+#incbin "samples/convert/daytona_everything - 107 - daytona_fing.dmp"
 ALIGN 4
 DaytonaSample108: //synth2
-SampleHeader(True,0x01588800,11308,20348)
-#incbin "samples/daytona/daytona_everything - 108 - daytona_synt.wav.sb"
+#incbin "samples/convert/daytona_everything - 108 - daytona_synt.dmp"
 ALIGN 4
 DaytonaSample109: //closed hi hat 2
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 109 - daytona_cym3.wav.sb"
+#incbin "samples/convert/daytona_everything - 109 - daytona_cym3.dmp"
 ALIGN 4
 DaytonaSample110: //orchestra hit 2
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 110 - daytona_orch.wav.sb"
+#incbin "samples/convert/daytona_everything - 110 - daytona_orch.dmp"
 ALIGN 4
 DaytonaSample111: //synth guitar
-SampleHeader(True,0x01588800,30503,31008)
-#incbin "samples/daytona/daytona_everything - 111 - daytona_synt.wav.sb"
+#incbin "samples/convert/daytona_everything - 111 - daytona_synt.dmp"
 ALIGN 4
 DaytonaSample112: //electric bass
-SampleHeader(True,0x01588800,24803,31547)
-#incbin "samples/daytona/daytona_everything - 112 - daytona_slap.wav.sb"
+#incbin "samples/convert/daytona_everything - 112 - daytona_slap.dmp"
 ALIGN 4
 DaytonaSample113: //slap bass 2
-SampleHeader(True,0x01588800,38476,46612)
-#incbin "samples/daytona/daytona_everything - 113 - daytona_fing.wav.sb"
+#incbin "samples/convert/daytona_everything - 113 - daytona_fing.dmp"
 ALIGN 4
 DaytonaSample114: //xylophone
-SampleHeader(True,0x01588800,7819,8198)
-#incbin "samples/daytona/daytona_everything - 114 - daytona_mbox.wav.sb"
+#incbin "samples/convert/daytona_everything - 114 - daytona_mbox.dmp"
 ALIGN 4
 DaytonaSample115: //drum loop
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 115 - daytona_drum.wav.sb"
+#incbin "samples/convert/daytona_everything - 115 - daytona_drum.dmp"
 ALIGN 4
 DaytonaSample116: //distortion guitar
-SampleHeader(True,0x01588800,24232,44529)
-#incbin "samples/daytona/daytona_everything - 116 - daytona_guit.wav.sb"
+#incbin "samples/convert/daytona_everything - 116 - daytona_guit.dmp"
 ALIGN 4
 DaytonaSample117: //electric guitar
-SampleHeader(True,0x01588800,33469,44932)
-#incbin "samples/daytona/daytona_everything - 117 - daytona_guit.wav.sb"
+#incbin "samples/convert/daytona_everything - 117 - daytona_guit.dmp"
 ALIGN 4
 DaytonaSample118: //acoustic piano
-SampleHeader(True,0x01588800,29707,35034)
-#incbin "samples/daytona/daytona_everything - 118 - daytona_pian.wav.sb"
+#incbin "samples/convert/daytona_everything - 118 - daytona_pian.dmp"
 ALIGN 4
 DaytonaSample119: //music box
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 119 - daytona_tink.wav.sb"
+#incbin "samples/convert/daytona_everything - 119 - daytona_tink.dmp"
 ALIGN 4
 DaytonaSample120: //dulcimer
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 120 - daytona_tink.wav.sb"
+#incbin "samples/convert/daytona_everything - 120 - daytona_tink.dmp"
 ALIGN 4
 DaytonaSample121: //synth voice
-SampleHeader(True,0x01588800,6730,12721)
-#incbin "samples/daytona/daytona_everything - 121 - daytona_synt.wav.sb"
+#incbin "samples/convert/daytona_everything - 121 - daytona_synt.dmp"
 ALIGN 4
 DaytonaSample122: //guitar pluck?
-SampleHeader(False,0x01588800,0,0)
-#incbin "samples/daytona/daytona_everything - 122 - daytona_plun.wav.sb"
+#incbin "samples/convert/daytona_everything - 122 - daytona_plun.dmp"

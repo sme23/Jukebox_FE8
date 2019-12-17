@@ -4,8 +4,8 @@
 
 @cd %~dp0
 
-@cd "%~dp0daytona"
+@cd "%~dp0convert"
 
-@dir * /b > files.txt
+@dir *.dmp /b > files.txt
 
 @pause

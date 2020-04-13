@@ -1,0 +1,35 @@
+
+ALIGN 4
+PoppleSample1:
+SampleHeader(True,0x02732400,4468,8224)
+#incbin "samples/convert/bassguitar.dmp"
+
+ALIGN 4
+PoppleSample2:
+SampleHeader(True,0x02732400,4279,7492)
+#incbin "samples/convert/basspercussion.dmp"
+
+ALIGN 4
+PoppleSample3:
+SampleHeader(False,0x02732400,0,5760)
+#incbin "samples/convert/clap.dmp"
+
+ALIGN 4
+PoppleSample4:
+SampleHeader(True,0x02732400,3306,5168)
+#incbin "samples/convert/lead.dmp"
+
+ALIGN 4
+PoppleSample5:
+SampleHeader(False,0x02732400,0,85472)
+#incbin "samples/convert/piano.dmp"
+
+ALIGN 4
+PoppleSample6:
+SampleHeader(True,0x02732400,2546,3261)
+#incbin "samples/convert/sax.dmp"
+
+ALIGN 4
+PoppleSample7:
+SampleHeader(False,0x02732400,0,8896)
+#incbin "samples/convert/square.dmp"

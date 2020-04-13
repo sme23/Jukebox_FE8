@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	multisampledemo_grp  DaytonaUSAVoices
+	#define	multisampledemo_grp  PoppleVoiceTable
 	#define	multisampledemo_pri  0
 	#define	multisampledemo_rev  0
 	#define	multisampledemo_mvl  127

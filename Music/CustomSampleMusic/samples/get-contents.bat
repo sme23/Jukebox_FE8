@@ -4,8 +4,8 @@
 
 @cd %~dp0
 
-@cd "%~dp0convert"
+@cd "%~dp0mumbo"
 
-@dir *.dmp /b > files.txt
+@dir *.sb /b > files.txt
 
 @pause

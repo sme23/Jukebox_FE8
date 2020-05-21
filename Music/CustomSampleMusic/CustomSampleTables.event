@@ -195,7 +195,7 @@ BYTE 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 2
 
 
 #include "DaytonaUSAInstrumentSamples.event"
-
+/*
 
 ALIGN 4
 PoppleVoiceTable:
@@ -208,7 +208,7 @@ VoiceDirect(PoppleVoiceTable,5,Cn3,PoppleSample6,False,0x0,0x0,0xff,0xfc,0x40,0x
 VoiceDirect(PoppleVoiceTable,6,Cn3,PoppleSample7,False,0x0,0x0,0xff,0xfc,0x40,0xd0) //square, Gn2
 
 ORG PoppleVoiceTable+0x600
-
+*/
 #include "PoppleSamples.event"
 
 ALIGN 4

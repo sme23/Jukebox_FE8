@@ -33,3 +33,81 @@ ALIGN 4
 PoppleSample7:
 SampleHeader(False,0x02732400,0,8896)
 #incbin "samples/convert/square.dmp"
+
+
+ALIGN 4
+MumboSample1:
+SampleHeader(False,0x00599800,0,728)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0000.wav.sb"
+
+ALIGN 4
+MumboSample2:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0001.wav.sb"
+
+ALIGN 4
+MumboSample3:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0002.wav.sb"
+
+ALIGN 4
+MumboSample4:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0003.wav.sb"
+
+ALIGN 4
+MumboSample5:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0004.wav.sb"
+
+ALIGN 4
+MumboSample6:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0005.wav.sb"
+
+ALIGN 4
+MumboSample7:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0006.wav.sb"
+
+ALIGN 4
+MumboSample8:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0007.wav.sb"
+
+ALIGN 4
+MumboSample9:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0008.wav.sb"
+
+ALIGN 4
+MumboSample10:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_0009.wav.sb"
+
+ALIGN 4
+MumboSample11:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_000A.wav.sb"
+
+ALIGN 4
+MumboSample12:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_000B.wav.sb"
+
+ALIGN 4
+MumboSample13:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_000C.wav.sb"
+
+ALIGN 4
+MumboSample14:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_000D.wav.sb"
+
+ALIGN 4
+MumboSample15:
+SampleHeader(False,0x00599800,0,573)
+#incbin "samples/mumbo/BANK_00_INSTR_0047_SND_000E.wav.sb"
+
+

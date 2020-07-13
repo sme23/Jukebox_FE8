@@ -31,9 +31,70 @@
 //songs
 
 {
-SongTable(0x1,multisampledemo,0)
+SongTable(1,multisampledemo,0)
 #include "songs/multisampledemo.event"
 }
+
+{
+SongTable(2,maple,0)
+#include "songs/maple.event"
+}
+
+{
+SongTable(3,lyingcoldly,0)
+#include "songs/lyingcoldly.event"
+}
+
+{
+SongTable(4,cove2,0)
+#include "songs/cove2.event"
+}
+
+{
+SongTable(5,Tara,0)
+#include "songs/Tara.event"
+}
+
+{
+SongTable(6,outside,0)
+#include "songs/outside.event"
+}
+
+{
+SongTable(7,logicandtrick,0)
+#include "songs/logicandtrick.event"
+}
+
+{
+SongTable(8,objection2001,0)
+#include "songs/objection2001.event"
+}
+
+{
+SongTable(9,suspense,0)
+#include "songs/suspense.event"
+}
+
+{
+SongTable(10,testimony,0)
+#include "songs/testimony.event"
+}
+
+{
+SongTable(11,courtroomlobby,0)
+#include "songs/courtroomlobby.event"
+}
+
+{
+SongTable(12,allegro2001,0)
+#include "songs/allegro2001.event"
+}
+
+{
+SongTable(13,trial,0)
+#include "songs/trial.event"
+}
+
 
 //installation of ipatix's sound mixer. Essential if you want to use GS synths; also makes most music sound better by reducing background noise.
 
@@ -105,8 +166,8 @@ VoiceMulti(MusicVoices,0x0,PianoTable,PianoChart)
 VoiceDirect(MusicVoices,0x1,0x3c,0x02A8068,0x0,0x0,0x0,0xff,0xfc,0x40,0xd0)
 //2 acoustic bass - C1
 VoiceDirect(MusicVoices,0x2,0x3c,0x029918C,0x0,0x0,0x0,0xff,0xfc,0x70,0xa5)
-//3
-VoiceDummy(MusicVoices,0x3)
+//3 honky tonk - C5
+VoiceDirect(MusicVoices,0x3,0x3c,HonkyTonkSample,0x0,0x0,0x0,0xff,0xfc,0x40,0xd0)
 //4 electric piano 1 - C4
 VoiceDirect(MusicVoices,0x4,0x3c,0x02BB7F4,0x0,0x0,0x0,0xff,0xfd,0x0,0xcc)
 //5 electric piano 2 (used in item-get jingle) - C3
@@ -209,8 +270,8 @@ VoiceMulti(MusicVoices,0x34,ChoirTable,C3toC4Chart)
 VoiceDummy(MusicVoices,0x35)
 //54 choir aah c4 (kept for compatibility purposes; use 52 instead) - C4
 VoiceDirect(MusicVoices,0x36,0x3c,0x028CD70,0x0,0x0,0x0,0x32,0x0,0xff,0xd0)
-//55
-VoiceDummy(MusicVoices,0x37)
+//55 orchestra hit
+VoiceDirect(MusicVoices,0x37,0x3c,OrchestraHitSample,0x0,0x0,0x0,0xff,0x0,0xff,0xb0)
 //56 trumpet - C4-C5
 VoiceMulti(MusicVoices,0x38,TrumpetTable,C4toC5Chart)
 //57 trombone - C3
@@ -252,7 +313,10 @@ VoiceDirect(MusicVoices,0x4a,0x3c,0x04D373C,0x0,0x0,0x0,0xff,0x0,0xff,0xa5)
 //75 pan flute - C4
 VoiceDirect(MusicVoices,0x4b,0x3c,0x04D9314,0x0,0x0,0x0,0xff,0x0,0xff,0xa5)
 //76 pan flute with lower attack (recommend use 75 instead) - C4
-VoiceDirect(MusicVoices,0x4c,0x3c,0x04D9314,0x0,0x0,0x0,0x30,0xfe,0x0,0xd0)
+//VoiceDirect(MusicVoices,0x4c,0x3c,0x04D9314,0x0,0x0,0x0,0x30,0xfe,0x0,0xd0)
+// 76 kazoo
+VoiceDirect(MusicVoices,0x4c,0x3c,KazooSample,0x0,0x0,0x0,0xff,0x0,0xff,0xa5)
+
 //77 ocarina (shifted one octave up) - C4 (+1)
 VoiceDirect(MusicVoices,0x4d,0x3c,0x04BE7C0,0x0,0x0,0x0,0x30,0xfe,0x0,0x80)
 //78 clarinet c3 (use 71 instead) - C3
@@ -313,7 +377,10 @@ VoiceDirect(MusicVoices,0x67,0x3c,0x04C0120,0x0,0x0,0x0,0xff,0x0,0xff,0xa5)
 //104 synthbrass - C2-C3
 VoiceMulti(MusicVoices,0x68,SynthleadTable,C2toC3Chart)
 //105 synthstrings (if you are looking for real synthstrings, here they are) - C3-C4
-VoiceMulti(MusicVoices,0x69,SynthstringsTable,C3toC4Chart)
+//VoiceMulti(MusicVoices,0x69,SynthstringsTable,C3toC4Chart)
+//105 banjo
+VoiceDirect(MusicVoices,0x69,0x3c,BanjoSample,0x0,0x0,0x0,0xff,0x0,0xff,0xb0)
+
 //106 synthstrings c4 (kept for compatibility purposes; use 105 instead) - C4
 VoiceDirect(MusicVoices,0x6a,0x3c,0x04D1AD4,0x0,0x0,0x0,0xff,0x0,0xff,0xc0)
 //107 strings1 c4 (kept for compatibility purposes; use 48 instead) - C4
@@ -331,7 +398,10 @@ VoiceDirect(MusicVoices,0x70,0x3c,0x05016D8,0x0,0x0,0x0,0xff,0xfc,0x0,0xe0)
 //113 GS square 50 - not vanilla, but included with installer by default
 VoiceDirect(MusicVoices,0x71,0x3c,GSSquare50,0x0,0x0,0x0,0xff,0x0,0xff,0x80)
 //114 GS square 25 - not vanilla, but included with installer by default
-VoiceDirect(MusicVoices,0x72,0x3c,GSSquare25,0x0,0x0,0x0,0xff,0x0,0xff,0x80)
+//VoiceDirect(MusicVoices,0x72,0x3c,GSSquare25,0x0,0x0,0x0,0xff,0x0,0xff,0x80)
+//114 steel drums
+VoiceDirect(MusicVoices,0x72,0x3c,SteelDrumSample,0x0,0x0,0x0,0xff,0x0,0xff,0xa5)
+
 //115 GS square 12,5 - not vanilla, but included with installer by default
 VoiceDirect(MusicVoices,0x73,0x3c,GSSquare12p5,0x0,0x0,0x0,0xff,0x0,0xff,0x80)
 //116 melodic bass drum - C3
@@ -493,3 +563,30 @@ GSSquareMacro(0x20,0xf0,0x20,0x80)
 //SampleHeader macro for .sb samples converted from .wav
 #define SampleHeader(IsSampleLooped,SamplePitchAdjustment,SampleLoopPoint,SampleLength) "BYTE $00 $00 $00 IsSampleLooped*0x40; WORD SamplePitchAdjustment; WORD SampleLoopPoint; WORD SampleLength"
 
+
+ALIGN 4
+HonkyTonkSample:
+SampleHeader(False,22579200,0,26330)
+#incbin "samples/honky-tonk.sb"
+
+ALIGN 4
+KazooSample:
+SampleHeader(True,22579200,2103,2986)
+#incbin "samples/kazoo.sb"
+
+ALIGN 4
+BanjoSample:
+SampleHeader(False,22579200,0,6256)
+#incbin "samples/banjo.sb"
+
+ALIGN 4
+SteelDrumSample:
+SampleHeader(False,22579200,0,6784)
+#incbin "samples/steeldrum.sb"
+
+ALIGN 4
+OrchestraHitSample:
+SampleHeader(False,13700096,0,9168)
+#incbin "samples/orchestrahit.sb"
+
+MESSAGE MusicVoices music voices

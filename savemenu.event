@@ -98,12 +98,12 @@ PROC_LOOP_ROUTINE($A9E1D) //
 */
 */
 PROC_LABEL(14) // SOUND ROOM
-PROC_CALL_ROUTINE_ARG($AE2F5,8) //NewFadeOut
-PROC_WHILE_ROUTINE($AE2B9) //FadeOutExists
-PROC_WHILE_ROUTINE($2951) //song fade out/in(?)
+//PROC_CALL_ROUTINE_ARG($AE2F5,8) //NewFadeOut
+//PROC_WHILE_ROUTINE($AE2B9) //FadeOutExists
+//PROC_WHILE_ROUTINE($2951) //song fade out/in(?)
 PROC_LOOP_ROUTINE($AA159) //called when entering the sound room
 PROC_YIELD
-PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
+//PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
 //PROC_CALL_ROUTINE($A8C2D) //called when returning to menu from sound room
 //PROC_YIELD
 //PROC_CALL_ROUTINE($A8CD5) //called when returning to menu from sound room
@@ -113,7 +113,7 @@ PROC_CALL_ROUTINE_ARG($D01FD,MainMenuMusic)
 //PROC_WHILE_ROUTINE($AE2A1) //FadeInExists
 //PROC_WHILE_ROUTINE($2951) //song fade out/in(?)
 //PROC_CALL_ROUTINE($AA1BD) //called when returning to menu from sound room
-
+/*
 PROC_LABEL(21)
 PROC_YIELD
 
@@ -130,6 +130,12 @@ PROC_WHILE_ROUTINE($AE2B9) //FadeOutExists
 PROC_LABEL(15) //END MENU
 PROC_YIELD
 PROC_CALL_ROUTINE($AA031) //gets called when leaving the menu, sound room counts as the menu
+*/
+PROC_YIELD
+PROC_END
+
+ALIGN 4
+DummyProc:
 PROC_YIELD
 PROC_END
 

@@ -26,11 +26,24 @@ mov r3,#0
 blh ProcStart
 
 mov r4,r0
-mov r0,#0
 
+//mov r1,r4
+//ldr r0,=#0x8A21338 //sound room UI proc
+//blh ProcStart
+
+
+mov r0,#0
 ldr r1,=0x80AF535
 bx r1
 
 .ltorg
 .align
 
+.global InfiniteLoopProcFunc
+.type InfiniteLoopProcFunc, %function
+
+InfiniteLoopProcFunc:
+bx r14
+
+.ltorg
+.align

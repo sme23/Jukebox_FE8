@@ -20,6 +20,9 @@ sub sp,#4
 
 //make a dummy proc
 ldr r0,=DummyProc
+mov r1,#0
+mov r2,#0
+mov r3,#0
 blh ProcStart
 
 mov r4,r0

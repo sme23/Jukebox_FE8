@@ -7,6 +7,7 @@ ORG 0x000AD8   // this is somewhere in the startup routine
 BL(0x01C090) // Call the debug startup
 
 ORG 0x01C0A2
+//BL(SoundRoomBoot)
 BL(0x0AF52C) //Call the sound room
 //BL(0x0AA4C0) //Call the main menu
 
@@ -32,5 +33,7 @@ POP
 //I am lazy so custom startup thing that goes in bl range
 //actually nah we'll just redo the start of the make sound room function
 
+PUSH
+ORG 0x1c1ec0
 #include "SoundRoomBoot.lyn.event"
-
+POP

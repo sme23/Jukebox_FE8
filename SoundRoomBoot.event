@@ -7,12 +7,12 @@ ORG 0x000AD8   // this is somewhere in the startup routine
 BL(0x01C090) // Call the debug startup
 
 ORG 0x01C0A2
-//BL(SoundRoomBoot)
-BL(0x0AF52C) //Call the sound room
+BL(SoundRoomBootFunc-1)
+//BL(0x0AF52C) //Call the sound room
 //BL(0x0AA4C0) //Call the main menu
 
 ORG 0x0AF52C
-jumpToHack(SoundRoomBoot)
+//jumpToHack(SoundRoomBoot)
 //SHORT 0xB5E0
 
 ORG 0xAF796

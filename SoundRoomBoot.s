@@ -9,6 +9,7 @@
 .equ RegisterTileGraphics, 0x08002015 @r0 = frame data????, r1 = area of vram, r2 = 0x2000???? (i dont think this is actually necessary?)
 .equ LoadBgConfig, 0x0881B59 @r0 = something but we can keep it as 0
 .equ InitOAMSplice,0x80020fd
+.equ SoundRoomStart, 0x80AFF1C
 
 .macro blh to, reg=r3
   push {\reg}
@@ -17,6 +18,25 @@
   pop {\reg}
   .short 0xf800
 .endm
+
+.global SoundRoomBootFunc
+.type SoundRoomBootFunc, %function
+
+SoundRoomBootFunc:
+push {r14}
+//make a dummy proc
+ldr r0,=DummyProc
+mov r1,#0
+mov r2,#0
+mov r3,#0
+mov r5,#0
+blh ProcStart
+pop {r0}
+bx r0
+
+.ltorg
+.align
+
 
 SoundRoomBoot:
 
@@ -33,9 +53,9 @@ blh ProcStart
 
 mov r4,r0
 
-mov r1,r4
-ldr r0,=#0x8A21338 //sound room UI proc
-blh ProcStart
+//mov r1,r4
+//ldr r0,=#0x8A21338 //sound room UI proc
+//blh ProcStart
 
 
 
@@ -60,15 +80,7 @@ bx r14
 
 Frame1BootFunc:
 //this used to be dumb but now it's going to actually do something
-push {r4,r14}
-mov r4,r0
-ldr r0,=#0x08A21338 //sound room proc
-mov r1,r0
-mov r2,#0
-mov r3,#0
-blh ProcStartBlocking
-
-pop {r4}
+push {r14}
 pop {r0}
 bx r0
 

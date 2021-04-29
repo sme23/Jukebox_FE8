@@ -31,7 +31,9 @@ echo:
 echo Assembling
 
 cd "%base_dir%Event Assembler"
-ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%"
+ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%" --build-times --nocash-sym
+
+java -jar %~dp0Tools\sym\SymCombo.jar "%~dp0Jukebox.sym" "%~dp0FE8_clean.sym"
 
   echo:
   echo Generating patch

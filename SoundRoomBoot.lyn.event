@@ -1,10 +1,14 @@
 ALIGN 4
 PUSH
+<<<<<<< HEAD
 ORG CURRENTOFFSET+$1;SoundRoomBootFunc:
 ORG CURRENTOFFSET+$24;SoundRoomBoot:
 ORG CURRENTOFFSET+$2c;InfiniteLoopProcFunc:
 ORG CURRENTOFFSET+$4;Frame1BootFunc:
 ORG CURRENTOFFSET+$8;GrrThisIsWhatIGet:
+=======
+ORG CURRENTOFFSET+$1;SoundRoomBoot:
+>>>>>>> parent of 27ada1d (a)
 POP
 SHORT $B500 $4806 $2100 $2200 $2300 $2500 $B408 $4B04 $469E $BC08
 BYTE $0 $F8
@@ -17,5 +21,8 @@ BYTE $0 $F8
 SHORT $1C04 $2000 $4902 $4708
 POIN DummyProc
 BYTE $7D $2C $0 $8 $35 $F5 $A $8
+<<<<<<< HEAD
 SHORT $4770 $46C0 $B500 $BC01 $4700 $46C0 $2000 $210F $B408 $4B02 $469E $BC08
 BYTE $0 $F8 $0 $0 $FD $20 $0 $8
+=======
+>>>>>>> parent of 27ada1d (a)

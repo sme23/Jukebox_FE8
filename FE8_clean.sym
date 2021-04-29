@@ -5918,6 +5918,8 @@
 080ae2d0 NewFadeIn
 080ae2f4 .thumb
 080ae2f4 NewFadeOut
+080af1d8 .thumb
+080af1d8 SoundRoom_LoadVolumeGfx
 080af228 .thumb
 080af228 nullsub_65
 080b05c0 .thumb

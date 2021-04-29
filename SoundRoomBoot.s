@@ -52,16 +52,12 @@ mov r5,#0
 blh ProcStart
 
 mov r4,r0
-<<<<<<< HEAD
 
 //mov r1,r4
 //ldr r0,=#0x8A21338 //sound room UI proc
 //blh ProcStart
 
 
-
-=======
->>>>>>> parent of 27ada1d (a)
 mov r0,#0
 
 ldr r1,=0x80AF535
@@ -100,5 +96,4 @@ mov r0,#0
 mov r1,#0xF
 blh InitOAMSplice
 
-=======
->>>>>>> parent of 27ada1d (a)
+

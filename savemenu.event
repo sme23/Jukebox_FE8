@@ -136,12 +136,9 @@ PROC_END
 
 ALIGN 4
 DummyProc:
-<<<<<<< HEAD
 //PROC_CALL_ROUTINE(Frame1BootFunc)
 PROC_CALL_ROUTINE(0xAFF1D) //starts the sound room UI proc
 PROC_LOOP_ROUTINE(InfiniteLoopProcFunc)
-=======
-PROC_SLEEP(1600)
->>>>>>> parent of 27ada1d (a)
+PROC_YIELD
 PROC_END
 
